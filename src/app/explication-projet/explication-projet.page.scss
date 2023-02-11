@@ -1,0 +1,139 @@
+.titre{
+  font-weight: bolder;
+  color: black;
+  font-size: 90%;
+  margin-top: 1%;
+}
+.exp{
+  font-weight: bolder;
+  font-size: 60%;
+  margin-bottom: 120%;
+  margin-top: 3%;
+  margin-left: 5px;
+}
+.posi{
+  margin-top: -2vh;
+  border: 1px;
+  border-color: black;
+}
+.bord{
+   box-sizing: border-box;
+   position: absolute;
+   width: 251px;
+   height: 76px;
+   left: 8px;
+   top: 10px;
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   border-radius: 5px;
+}
+
+ .droite{
+   font-size: 22px;
+   margin-right: 0%;
+   margin-left: 88%;
+   margin-top: -25px;
+}
+
+.monAc{
+  margin-top: -35px;
+  margin-left: 42px;
+
+}
+.rect{
+  position: absolute;
+width: 268px;
+height: 748px;
+left: 4px;
+top: 86px;
+right: 90px;
+
+background: #FFFFFF;
+border-radius: 10px;
+} 
+.imag{
+  width: 95%;
+  margin-left: 1vh;
+  margin-right: -50vh;
+  margin-top: 3%;
+  height: 24vh;
+  border-radius: 4%;
+}
+.rect2{
+   position: absolute;
+   width: 253px;
+   height: 212px;
+   left: 11px;
+   top: 316px;
+   background: #1A7791;
+   border-radius: 5px;
+}
+.oo{
+ margin-top: 11%;
+ margin-left: 9%;
+}
+ion-item {
+  --padding-start: 0;
+}
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.notif{
+ margin-top: 2%;
+ width: 39vh;
+ margin-left: 2vh;
+}
+.mots{
+ font-size: 12px;
+}
+.blanc{
+ background-color: #FFFFFF;
+ margin-top: 0vh;
+ border-radius: 22px;
+ width: 220px;
+} 
+.ex{
+ margin-top: -21%;
+ margin-left: 32%;
+ color: white;
+ font-size: 12px;
+ 
+} 
+.notif {
+   width: 222px;
+   height: 27px;
+   background: #FFFFFF;
+   border-radius: 12px;
+   margin-left: 5px;
+}
+.cadre{
+ box-sizing: border-box;
+   height: 115px;
+   margin-top: 0px;
+   background: #1A7791;
+   opacity: 86%;
+   width: 239px;
+   margin-left: 7px;
+}
+.tes{
+   font-size: 8px;
+}
+.tes1{
+   font-size: 10px;
+}
+.voir{
+   box-sizing: border-box;
+   width: 38px;
+   height: 19px;
+   left: 284px;
+   top: 620px;
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   border-radius: 5px;
+   margin-left: 198px;
+   margin-top: -4px;
+   color: #000000;
+   font-size: 11px;
+   text-align: center;
+}
