@@ -25,6 +25,32 @@ const routes: Routes = [
         loadChildren: () => import('../explication-projet/explication-projet.module').then(m => m.ExplicationProjetPageModule)
       }, 
       {
+        path: 'detail-projets/:id',
+        loadChildren: () => import('../detail-projets/detail-projets.module').then(m => m.DetailProjetsPageModule)
+      },
+      {
+        path: 'projet-entier',
+        loadChildren: () => import('../projet-entier/projet-entier.module').then(m => m.ProjetEntierPageModule)
+      },
+      {
+        path: 'modification-compte',
+        loadChildren: () => import('../modification-compte/modification-compte.module').then(m => m.ModificationComptePageModule)
+      },
+      // {
+      //   path: 'connexion',
+      //   loadChildren: () => import('../connexion/connexion.module').then(m => m.ConnexionPageModule)
+      // },
+      // {
+      //   path: 'inscription',
+      //   loadChildren: () => import('../inscription/inscription.module').then(m => m.InscriptionPageModule)
+      // },
+      {
+        path: 'ajouter-projet',
+        loadChildren: () => import('../ajouter-projet/ajouter-projet.module').then(m => m.AjouterProjetPageModule)
+      },
+      
+      
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

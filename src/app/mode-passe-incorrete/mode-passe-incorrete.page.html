@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>mode-passe-incorrete</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
+
+
+<div class="logo">
+  <img alt="Silhouette of a person's head" class="aa"
+src="../../assets/Images/logo.jpg" />
+</div>
+
+<div class="rect">
+  <ion-card-header class="posi">
+</ion-card-header>
+<form class="my-form" [formGroup]="formulaire" (ngSubmit)="submitForm()">
+    
+  <ion-label class="champ" position="stacked">Identifiant *</ion-label>
+  <ion-input class="small"  type="text" formControlName="nomComplet"></ion-input>
+
+
+  <ion-label class="champ" position="stacked">Mot de Passe</ion-label>
+  <ion-input class="small"  type="text" formControlName="adresse"></ion-input>
+
+
+  <ion-button class="envoi" type="submit" expand="block">Se connecter</ion-button>
+  <ion-label class="con" position="stacked">Mot de passe oublier ?</ion-label>
+</form>
+</div>
+<ion-tab-bar style="height: 30px;">
+
+</ion-tab-bar>

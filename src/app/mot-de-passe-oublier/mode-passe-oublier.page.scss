@@ -1,0 +1,131 @@
+ion-title{
+    margin-left: 76px;
+}
+.my-form {
+    // background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 6px 6px 70px rgba(0, 0, 0, 0.25);
+    margin-top: -20px;
+  }
+  form{
+    // margin-top: 1495px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+    border: #000000;
+    background-color: #1A7791; /* ajoute un fond gris clair */
+    border: 1px solid #ccc; 
+    // border-radius: 2px;
+    height: 238px;
+  
+  }
+  .small{
+    background-color: white;
+    border-radius: 8px;
+    border: solid black 1px;
+    margin-top: 7px;
+    font-size: 9px;
+    --padding-start: 2px;
+    --padding-end: 2px;
+    --padding-top: 2px;
+    --padding-bottom: 2px;
+    color: #000000;
+    height: 18px;
+  }
+
+  .con{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 49px;
+    margin-bottom: -200px; 
+    margin-left: 43px;
+    text-decoration: underline;
+  }
+ 
+  .champ{
+    // background-color: white;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: -49px;
+    margin-bottom: -230px; 
+    margin-left: 14px;
+  }
+    .rect{
+        position: absolute;
+      width: 206px;
+      height: 240px;
+      left: 35px;
+      top: 288px;
+      right: 90px;
+      background: #ffffff;
+      border-radius: 10px;
+      bottom: 48px;
+      border: solid  black 1px;
+      }
+      .posi{
+        margin-top: -2vh;
+        border: 1px;
+        border-color: black;
+     }
+     .rect2{
+        margin-top: 12px;
+     }
+     .mon{
+        margin-top: 49px;
+       width: 65px;
+       height: 65px;
+       margin-left: 16px;
+       margin-right: 0px;
+     }
+     .envoi{
+        margin-top: 32px;
+       width: 137px;
+       height: 24px;
+       margin-left: 20px;
+       margin-right: 0px;
+       color: #ffffff;
+       font-size: 8px;
+       --background: #00600A;
+       border: solid white 1px;
+     }
+     .envoie{
+        margin-top: 155px;
+       width: 80px;
+       height: 20px;
+       margin-left: 115px;
+       margin-right: 0px;
+       color: #ffffff;
+       font-size: 8px;
+       --background: #00600A;
+     }
+     .aa{
+        margin-top: -85px;
+        // margin-left: 87px;
+     }
+     
+      .ddd{
+       position: absolute;
+       left: 0.77%;
+       right: 0.77%;
+       top: 21%;
+       bottom: 0.36%;
+       background: #1A7791;
+       border-radius: 0px;
+     }
+h4{
+    color: #000000;
+    margin-top: 207px;
+    font-size: 14px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+.logo{
+    position: absolute;
+    width: 180px;
+    height: 268px;
+    left: 49px;
+    top: 172px;
+
+} 

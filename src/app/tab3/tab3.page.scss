@@ -7,10 +7,11 @@
  }
  .exp{
    font-weight: bolder;
-   font-size: 60%;
+   font-size: 85%;
    margin-bottom: 120%;
    margin-top: 3%;
    margin-left: 5px;
+   color: #000000;
  }
 .posi{
    margin-top: -2vh;
@@ -20,10 +21,10 @@
 .bord{
     box-sizing: border-box;
     position: absolute;
-    width: 251px;
-    height: 76px;
-    left: 8px;
-    top: 10px;
+    width: 264px;
+    height: 196px;
+    left: 2px;
+    top: 238px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 5px;
@@ -156,6 +157,16 @@ ion-item {
   bottom: 0.36%;
   background: #1A7791;
   border-radius: 0px;
+}
+.dd{
+  position: absolute;
+  left: 0.77%;
+  right: 0.77%;
+  top: 11%;
+  bottom: 16%;
+  background: #1A7791;
+  // border-radius: 15px;
+  height: 340px;
 }
 .sy{
   box-sizing: border-box;

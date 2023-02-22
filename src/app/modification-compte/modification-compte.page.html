@@ -1,0 +1,186 @@
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div class="toutdiv">
+        <div class="gauche">
+          <ion-buttons slot="start">
+            <ion-back-button defaultHref="/tab1"></ion-back-button>
+          </ion-buttons>
+        </div>
+        <div class="milieu">
+          <ion-title class="monAc">Critères</ion-title>
+        </div>
+        <div class="droite">
+          <ion-buttons>
+            <i class='fas fa-bell'></i>
+          </ion-buttons>
+        </div>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+</div>
+
+ <div class="rect">
+     <ion-card-header class="posi">
+  </ion-card-header>
+
+<!-- <div class="rect2"> -->
+  <form class="my-form" [formGroup]="formulaire" (ngSubmit)="submitForm()">
+    
+      <ion-label class="champ" position="stacked">Nom Complet *</ion-label>
+      <ion-input class="small"  type="text" formControlName="nomComplet"></ion-input>
+    
+    
+      <ion-label class="champ" position="stacked">Adresse</ion-label>
+      <ion-input class="small"  type="text" formControlName="adresse"></ion-input>
+   
+    
+      <ion-label class="champ" position="stacked">Siège *</ion-label>
+      <ion-input class="small"  type="text" formControlName="siege"></ion-input>
+    
+
+    
+      <ion-label class="champ" position="stacked">Profession</ion-label>
+      <ion-input class="small"  type="text" formControlName="profession"></ion-input>
+    
+
+    
+      <ion-label class="champ" position="stacked">Nom de l'entreprise</ion-label>
+      <ion-input class="small"  type="text" formControlName="nomEntreprise"></ion-input>
+    
+
+    
+      <ion-label class="champ" position="stacked">Pièce jointe pour fichier *</ion-label>
+      <ion-input class="small"  type="file" formControlName="pieceJointe" accept=".pdf,.doc,.docx"></ion-input>
+    
+    
+      <ion-button class="envoi" type="submit" expand="block">Envoyer</ion-button>
+     
+  </form>
+ <!-- </div>  -->
+
+
+  
+
+  <!-- <ion-header>
+    <div class="toutdiv">
+      <ion-toolbar>
+        <div class="droite">     
+  <ion-buttons>
+   <i class='fas fa-bell'></i>
+ </ion-buttons>
+ </div>
+ <div class="gauche">
+   <ion-buttons slot="start">
+     <ion-back-button defaultHref="/tab1"></ion-back-button>
+   </ion-buttons>
+ </div>
+      
+       <div class="milieu">
+         <ion-title class="monAc">Critères</ion-title>
+       </div> 
+     </ion-toolbar>
+    </div>
+    
+  </ion-header> -->
+  
+  <!-- <ion-content>
+    <form [formGroup]="formulaire" (ngSubmit)="submitForm()">
+      <ion-item>
+        <ion-label position="stacked">Nom Complet *</ion-label>
+        <ion-input type="text" formControlName="nomComplet"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="stacked">Adresse</ion-label>
+        <ion-input type="text" formControlName="adresse"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="stacked">Siège *</ion-label>
+        <ion-input type="text" formControlName="siege"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="stacked">Profession</ion-label>
+        <ion-input type="text" formControlName="profession"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="stacked">Nom de l'entreprise</ion-label>
+        <ion-input type="text" formControlName="nomEntreprise"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="stacked">Pièce jointe pour fichier *</ion-label>
+        <ion-input type="file" formControlName="pieceJointe" accept=".pdf,.doc,.docx"></ion-input>
+      </ion-item> -->
+  
+    
+  
+  <!-- <ion-content >
+    <form [formGroup]="myForm" (ngSubmit)="submitForm()">
+      <ion-item>
+        <ion-label>Nom complet :</ion-label>
+        <ion-input type="text" formControlName="nomComplet" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Adresse :</ion-label>
+        <ion-input type="text" formControlName="adresse" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Siège :</ion-label>
+        <ion-input type="text" formControlName="siege" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Profession :</ion-label>
+        <ion-input type="text" formControlName="profession"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Nom de l'entreprise :</ion-label>
+        <ion-input type="text" formControlName="nomEntreprise"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Pièce-jointe :</ion-label>
+        <input type="file" (change)="onFileSelected($event)">
+      </ion-item>
+      <ion-button type="submit">Envoyer</ion-button>
+      <p *ngIf="myForm.invalid">Les champs obligatoires doivent être remplis.</p>
+    </form>
+    
+  </ion-content> -->
+
+
+  
+<!-- <ion-menu contentId="main-content" >
+  <ion-content >
+    <ion-row class="slid" style="color: black;">
+      <div class="ddd">
+      <ion-avatar class="mon">
+        <img style=" margin-left: 107px;" alt="Silhouette of a person's head" class="aa" src="../../assets/Images/mogo.jpg" />
+      </ion-avatar>
+      <h4>Manuel</h4>
+    </div>
+    </ion-row>
+    <div class="bar"></div>
+    <div class="sy">
+      <ion-icon class="hom" name="home-sharp" style="font-size: 26px;margin-top: 25px;"></ion-icon>
+      <h6><a routerLink="/tabs/tab1">Acceuil</a> </h6>
+      <ion-icon  class="hom" name="sync-outline" style="font-size: 26px; margin-top: 18px;"></ion-icon>
+      <h5><a routerLink="/tabs/modification-compte">Modifier <br> Compte</a></h5>
+      <ion-icon class="hom"  name="add-circle-outline" style="font-size: 26px; margin-top: 11px;"></ion-icon>
+      <h6> <a routerLink="/tabs/tab2">Voir Pojets</a> </h6>
+      <ion-icon class="hom" name="close-circle-outline"style="font-size: 26px; margin-top: 15px; "></ion-icon>
+      <h5>Fermer <br> Compte</h5>
+    </div>
+      </ion-content>  
+</ion-menu>-->
+
+ 
+
+
+
+
+    
+   
+ 

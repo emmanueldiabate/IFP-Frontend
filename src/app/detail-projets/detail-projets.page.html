@@ -1,0 +1,75 @@
+<ion-menu contentId="main-content">
+ <ion-content >
+   <ion-row class="slid" style="color: black;">
+     <div class="ddd">
+     <ion-avatar class="mon">
+       <img style=" margin-left: 107px;" alt="Silhouette of a person's head" class="aa" src="../../assets/Images/mogo.jpg" />
+     </ion-avatar>
+     <h4>Manuel</h4>
+   </div>
+   </ion-row>
+   <div class="bar"></div>
+   <div class="sy">
+     <ion-icon class="hom" name="home-sharp" style="font-size: 26px;margin-top: 25px;"></ion-icon>
+     <h6>Acceuil</h6>
+     <ion-icon  class="hom" name="sync-outline" style="font-size: 26px; margin-top: 18px;"></ion-icon>
+     <h5>Modifier <br> Compte</h5>
+     <ion-icon class="hom"  name="add-circle-outline" style="font-size: 26px; margin-top: 11px;"></ion-icon>
+     <h6>Voir 
+       Pojets</h6>
+     <ion-icon class="hom" name="close-circle-outline"style="font-size: 26px; margin-top: 15px; "></ion-icon>
+     <h5>Fermer <br> Compte</h5>
+   </div>
+     </ion-content> 
+</ion-menu>
+<div class="ion-page" id="main-content">
+ <ion-header>
+   <ion-toolbar>
+     <div class="toutdiv">
+       <div class="gauche">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="/Accueil"></ion-back-button>
+        </ion-buttons>
+       </div>
+       <div class="milieu">
+         <ion-title class="monAc">Explication-Projet</ion-title>
+       </div>
+       <div class="droite">     
+<ion-buttons>
+ <i class='fas fa-bell'></i>
+</ion-buttons>
+       </div>
+     </div>
+   </ion-toolbar>
+ </ion-header> 
+<div class="rect">
+ <img alt="Silhouette of mountains" class="imag" src="{{projetParId.annonceurExpert.photo}}"/>
+ <ion-card-header class="posi">
+   <div class="bord">
+     <ion-card-subtitle class="exp">Nom: {{projetParId.nom}} <br>
+       Auteur: {{projetParId.auteur}} <br>
+       Secteur: {{projetParId.secteurActiviter.libellesecteur}} <br>
+       <!-- Adress: {{projetParId.annonceurExpert.email}} <br> -->
+       Gmail:{{projetParId.annonceurExpert.email}}
+      </ion-card-subtitle> 
+   </div>
+ </ion-card-header>
+</div>
+<div class="rect2">
+ <div class="cadre" >
+<ion-text class="tes1">
+  {{projetParId.description}}
+
+</ion-text>
+   <ion-text class="tes">
+      {{projetParId.contenu}}
+       <ion-button class="voir" fill="outline">
+         <ion-icon  ></ion-icon>
+         <a routerLink="/tabs/projet-entier">Voir+</a>
+       </ion-button>
+     </ion-text>
+   </div>
+ </div>
+   
+  
+

@@ -49,13 +49,13 @@
  .rect2{
     position: absolute;
     width: 254px;
-    height: 408px;
+    height: 399px;
     left: 11px;
-    top: 118px;
+    top: 93px;
     background: #1A7791;
-    border-radius: 28px;
+    border-radius: 15px;
  }
- .rect2::-webkit-scrollbar {
+ .cadre::-webkit-scrollbar {
   display: none;
 }
  .oo{
@@ -90,18 +90,11 @@
    font-size: 12px;
    
  } 
- .notif {
-    width: 222px;
-    height: 27px;
-    background: #FFFFFF;
-    border-radius: 12px;
-    margin-left: 5px;
-    margin-top: 19px;
- }
+
  .cadre{
    box-sizing: border-box;
-     height: 115px;
-     margin-top: 9px;
+     height: 322px;
+     margin-top: 15px;
      background: #1A7791;
      opacity: 86%;
      width: 239px;
@@ -211,3 +204,19 @@ ion-searchbar.custom {
     // background: #D6B798;
     border: 1px solid #D6B798;
   }
+  .notif {
+    width: 222px;
+    height: 27px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-top: 19px;
+ }
+ .envoi{
+  margin-top: 495px;
+  width: 100px;
+  margin-left: 86px;
+  --color: #040404;
+  --background: #FFFFFF;
+ }
+ 

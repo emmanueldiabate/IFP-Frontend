@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar style="height: 60px;">
+    <ion-title style="margin-top: -10px;">Verification</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <h4>Mot de passe Oublier</h4>
+</ion-content>
+
+<div class="logo">
+  <img alt="Silhouette of a person's head" class="aa"
+src="../../assets/Images/logo.jpg" />
+</div>
+
+<div class="rect">
+  <ion-card-header class="posi">
+</ion-card-header>
+
+<form class="my-form" [formGroup]="formulaire" (ngSubmit)="submitForm()">
+  <div class="rect2"> 
+   <ion-label class="champ" position="stacked">Numéro de Télépnoe*: </ion-label>
+   <ion-input class="small"  type="text" formControlName="nomComplet"></ion-input>
+ 
+   <ion-label class="champ" position="stacked">Nouveau mot de passe*:</ion-label>
+   <ion-input class="small"  type="text" formControlName="adresse"></ion-input>
+
+   <ion-label class="champ" position="stacked">Confirmation mot de passe*: </ion-label>
+   <ion-input class="small"  type="text" formControlName="siege"></ion-input>
+
+   <ion-button class="envoi" type="submit" expand="block">Entrez Image</ion-button> <br>
+   </div>  
+    </form>
+</div>
+<ion-tab-bar style="height: 30px; bottom: 0px;">
+
+</ion-tab-bar>

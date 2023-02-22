@@ -1,4 +1,4 @@
- <ion-menu contentId="main-content">
+<ion-menu contentId="main-content">
   <ion-content >
     <ion-row class="slid" style="color: black;">
       <div class="ddd">
@@ -11,12 +11,11 @@
     <div class="bar"></div>
     <div class="sy">
       <ion-icon class="hom" name="home-sharp" style="font-size: 26px;margin-top: 25px;"></ion-icon>
-      <h6>AcceuilSS</h6>
+      <h6><a routerLink="/tabs/tab1">Acceuil</a> </h6>
       <ion-icon  class="hom" name="sync-outline" style="font-size: 26px; margin-top: 18px;"></ion-icon>
       <h5>Modifier <br> Compte</h5>
       <ion-icon class="hom"  name="add-circle-outline" style="font-size: 26px; margin-top: 11px;"></ion-icon>
-      <h6>Voir 
-        Pojets</h6>
+      <h6> <a routerLink="/tabs/tab2">Voir Pojets</a> </h6>
       <ion-icon class="hom" name="close-circle-outline"style="font-size: 26px; margin-top: 15px; "></ion-icon>
       <h5>Fermer <br> Compte</h5>
     </div>
@@ -32,7 +31,7 @@
           </ion-buttons>
         </div>
         <div class="milieu">
-          <ion-title class="monAc">Explication-Projet</ion-title>
+          <ion-title class="monAc">Projet-Entier</ion-title>
         </div>
         <div class="droite">     
  <ion-buttons>
@@ -42,10 +41,13 @@
       </div>
     </ion-toolbar>
   </ion-header> 
- <div class="rect">
+  
+ 
+  <div class="rect">
   <img alt="Silhouette of mountains" class="imag" src="../../assets/Images/Josue.jpg"/>
   <ion-card-header class="posi">
     <div class="bord">
+      
       <ion-card-subtitle class="exp">Nom: MAHAMADOU <br>
         Prénom: KEITA <br>
         Profil: Ingénieur Informatique <br>
@@ -53,9 +55,11 @@
         Gmail:kmahamadou858@gmail.com</ion-card-subtitle> 
     </div>
   </ion-card-header>
- </div>
+ </div> -->
  <div class="rect2">
   <div class="cadre" >
+    
+  
 <ion-text class="tes1">
   Secteur du Projet: <br> Agriculture et la Technologie <br>
 Le projet est intitulé: FORODÔKÔTÔRÔ
@@ -64,16 +68,18 @@ Le projet est intitulé: FORODÔKÔTÔRÔ
        L’agriculture est un secteur bien actif au Mali. Ce présent projet offre les privilèges comme:
         _ Aider les agriculteurs à monétiser leurs récoltes.
         _ Donner accès aux bonnes pratiques de l’agriculture aux agriculteurs.
-        _ Permettre au grand public (clients) d’acheter des produits agricoles.
-        Mettre des différents agriculteurs en contact.
-        _ Permettre au grand public (clients) d’acheter des produits agricoles.
+
         Mettre des différents agriculteurs en contact...
-        <ion-button  fill="outline">
-          <a routerLink="/tabs/projet-entier">Voir+</a>
+        <ion-button class="voir" fill="outline">
+          <ion-icon  ></ion-icon>
+          contact
         </ion-button>
+        <!-- <div class="voir" >Voir+</div> -->
       </ion-text>
+    
+  
     </div>
   </div>
     
    
-  
+ 

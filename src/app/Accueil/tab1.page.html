@@ -14,14 +14,13 @@
     <div class="bar"></div>
     <div class="sy">
       <ion-icon class="hom" name="home-sharp" style="font-size: 26px;margin-top: 25px;"></ion-icon>
-      <h6>Acceuil</h6>
+      <h6><a routerLink="/mode-passe-oublier">Acceuil</a></h6>
       <ion-icon class="hom" name="sync-outline" style="font-size: 26px; margin-top: 18px;"></ion-icon>
-      <h5>Modifier <br> Compte</h5>
+      <h5><a routerLink="/connexion">Modifier <br> Compte</a></h5>
       <ion-icon class="hom" name="add-circle-outline" style="font-size: 26px; margin-top: 11px;"></ion-icon>
-      <h6>Voir
-        Pojets</h6>
+      <h6><a routerLink="/inscription">Voir Pojets</a></h6>
       <ion-icon class="hom" name="close-circle-outline" style="font-size: 26px; margin-top: 15px; "></ion-icon>
-      <h5>Fermer <br> Compte</h5>
+      <h5><a routerLink="/mode-passe-incorrete">Fermer <br> Compte</a></h5>
     </div>
   </ion-content>
 </ion-menu>
@@ -62,6 +61,7 @@
           </ion-avatar>
           <ion-card-subtitle class="ex">Auteur: {{projets1.auteur}} <br>Nom: {{projets1.nom}} <br> Secteur:
             {{projets1.secteurActiviter.libellesecteur}} <br> </ion-card-subtitle>
+            
           <div class="notif">
             <ion-card-subtitle
               style="color: black; font-size: 10px; left: 5%; top: 17%;">{{projets1.description}}</ion-card-subtitle>
